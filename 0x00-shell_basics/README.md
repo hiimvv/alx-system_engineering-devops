@@ -1,1 +1,1 @@
-printing current directory : pwd 
+0x00-shell basics 
