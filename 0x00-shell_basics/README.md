@@ -1,16 +1,16 @@
 0x00-shell basic commands 
-pwd
-ls
-cd
-ls -l
-ls -al
-ls -lan
-mkdir /tmp/my_first_directory
-mv /tmp/betty /tmp/my_first_directory
-rm /tmp/my_first_directory/betty
-rmdir /tmp/my_first_directory
-cd -
-ls -la . .. /boot
-file /tmp/iamafile
-ln -s /bin/ls __ls__
-cp -u *.html
+pwd : printing current directory 
+ls : listing contents of the directory 
+cd : nivigating to home directory 
+ls -l : displaying contents in long format 
+ls -alb: displaying current contents including hidden files 
+ls -lan : displaying current contents in long format including ids 
+mkdir /tmp/my_first_directory : creating a directory in a specific place 
+mv /tmp/betty /tmp/my_first_directory : moving a file to a specific directory 
+rm /tmp/my_first_directory/betty : deleting a file in a specific directory 
+rmdir /tmp/my_first_directory : deleting a directory 
+cd - : changing to previous directory 
+ls -la . .. /boot : specific listing 
+file /tmp/iamafile : describing a file type 
+ln -s /bin/ls __ls__ : creating a symbolic link 
+cp -u *.html copying with specifics 
